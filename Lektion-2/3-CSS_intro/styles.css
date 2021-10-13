@@ -6,6 +6,7 @@ h1 {
 }
 h1 {
   color: blue;
+  text-align: center;
 }
 p {
   color: #0000ff;
@@ -19,4 +20,22 @@ small {
 }
 /* .sm {
   color: chocolate;
+} */
+
+@media(min-width: 768px) {
+  h1 {
+    text-align: start;
+  }
+  /* body {
+    background-color: aqua;
+  } */
+}
+
+/* @media(min-width: 992px) {
+  h1 {
+    color: aqua;
+  }
+  body {
+    background-color: #ff7300;
+  }
 } */
