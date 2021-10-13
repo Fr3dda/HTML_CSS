@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulär</title>
+</head>
+<body>
+  
+  <!-- <form action="submitted.html" method="GET" > -->
+  <form method="GET" >
+<!-- 
+  GET - Skickar datan i URL, funkar när man söker efter någonting eller hämtar information.
+        Absolut INTE känslig information så som lösenord mm.
+
+  POST - Lägger in datan i ett paket (body) så det inte syns i URL.
+         Mycket säkrare metodm används när man skapar eller registrerar något.
+-->
+
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName">
+
+  <!-- <br>
+  <br> -->
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+  </div>
+
+  <button>Skicka</button>
+
+  </form>
+
+</body>
+</html>
