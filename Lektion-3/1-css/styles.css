@@ -80,3 +80,51 @@ body, html {
 .card-3 li:nth-child(even) {
   background-color: #bbb;
 }
+
+.link {
+  border: 1px solid #333;
+  width: 200px;
+  height: 50px;
+  /* padding: 10px; */
+  margin: 50px 10px;
+  display: inline-block;
+}
+
+.btn {
+  padding: .7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-light {
+  background-color: #a71693;
+  color: #fff;
+}
+.btn-light:hover {
+  background-color: #6d0f60;
+}
+.btn-light:active {
+  background-color: #570c4d;
+  transform: scale(0.99);
+}
+.jockes-knapp {
+  background-color: #222;
+  color: #fff;
+  /* padding: .7rem 1.5rem; */
+  /* border: none; */
+  /* border-radius: 5px; */
+  /* cursor: pointer; */
+  /* transition: all 0.2s ease; */
+}
+.jockes-knapp:hover {
+  background-color: #aaa;
+  color: #222;
+}
+.jockes-knapp:active {
+  /* background-color: rgb(155, 155, 155);
+  transform: scale(0.99); */
+
+  background-color: green;
+}
