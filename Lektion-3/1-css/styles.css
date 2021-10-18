@@ -18,10 +18,10 @@ body, html {
 .card-1 {
   background-color: #222;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1em;
   
   width: 300px;
-  padding: 20px;
+  /* padding: 20px; */
   border: 5px solid blue;
   /* box-sizing: border-box; */
   font-family: 'Times New Roman', Times, serif;
@@ -30,3 +30,53 @@ body, html {
 .card-1 p {
   font-family: 'Times New Roman', Times, serif;
 } */
+
+.card-1 h2 {
+  font-size: 2rem;
+  background-color: green;
+  padding: 0.5rem 1rem;
+}
+.card-1 p {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+
+
+#card-2 {
+  border: 1px solid #222;
+  /* margin: 2rem 0 0 0;
+  margin-top: 2rem; */
+  /* margin: 2rem 0; */
+
+  padding: 2rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+
+.card-3 {
+  border: 2px dashed #15885e;
+  padding: 2rem;
+}
+
+.card-3 ul {
+  list-style: none;
+}
+.card-3 a {
+  text-decoration: none;
+  color: #111;
+}
+.card-3 a:hover {
+  color: green;
+}
+.card-3 a:active {
+  color: deeppink;
+}
+
+.card-3 li:nth-child(even) {
+  background-color: #bbb;
+}
