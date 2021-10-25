@@ -29,6 +29,27 @@ a {
 a:hover {
   color: #bb7917;
 }
+.btn {
+  padding: .75rem 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: transparent;
+  width: 100%;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.btn-primary:hover {
+  /* box-shadow: inset 0 0 10px 3px #ffffff, 0 0 10px 3px #ffffff; */
+  /* box-shadow: 0 0 10px 3px #ffffff; */
+}
+
 
 /* TOP NAV */
 .top-nav {
@@ -69,15 +90,31 @@ a:hover {
   list-style: none;
 }
 
-
 /* SHOWCASE */
 #showcase {
-  background: #ffffff46 url('https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1769&q=80');
+  background: #00000091 url('https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1769&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   min-height: 50vh;
 }
+/* #showcase {
+  position: relative;
+}
+.bg-image {
+  background: #00000046 url('https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1769&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  filter: blur(3px);
+  min-height: 50vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+} */
 #showcase .container {
   display: flex;
   /* align-items: center; */
@@ -89,6 +126,23 @@ a:hover {
 }
 .content {
   align-self: center;
+  text-align: center;
+  padding: 5rem;
+}
+.text {
+  margin-bottom: 3rem;
+  color: #f0cfb6;
+}
+.text h1 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.text p {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 
@@ -115,6 +169,12 @@ a:hover {
   }
   #showcase .container img {
     display: inline-block;
+  }
+  .content {
+    text-align: left;
+  }
+  .btn {
+    width: auto;
   }
 }
 
