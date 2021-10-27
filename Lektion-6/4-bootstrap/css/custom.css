@@ -5,3 +5,19 @@
 .bg-primary {
   /* background-color: rgb(72, 61, 139) !important; */
 }
+
+.carousel-inner {
+  /* height: 400px; */
+  /* border: 3px solid red; */
+}
+.carousel-item {
+  /* border: 3px solid green; */
+  height: 300px;
+}
+/* .carousel-item img {
+  object-fit: contain;
+} */
+/* .carousel-item .w-100 {
+  width: auto !important;
+
+} */
