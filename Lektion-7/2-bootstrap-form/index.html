@@ -19,36 +19,77 @@
 
     <form>
 
-      <div class="row">
+      <div class="row gy-4">
 
-        <div class="col-6 mb-3">
+        <div class="col-12 col-md-6">
           <label for="firstName" class="form-label">First Name:</label>
-          <input type="text" class="form-control" id="firstName">
+          <input type="text" class="form-control is-valid" id="firstName">
+          <div class="valid-feedback">
+            Looking good!
+          </div>
+          <div class="invalid-feedback">
+            You must have a first name!
+          </div>
         </div>
   
-        <div class="col-6 mb-3">
+        <div class="col-12 col-md-6">
           <label for="lastName" class="form-label">Last Name:</label>
-          <input type="text" class="form-control" id="lastName">
+          <input type="text" class="form-control is-invalid" id="lastName">
+          <div class="valid-feedback">
+            Looking good!
+          </div>
+          <div class="invalid-feedback">
+            You must have a last name!
+          </div>
         </div>
 
-        <div class="col-12 mb-3">
+        <div class="col-12 position-relative">
           <label for="email" class="form-label">Email:</label>
-          <input type="text" class="form-control" id="email">
+          <input type="email" class="form-control" id="email">
+          <div class="invalid-tooltip">
+            You must enter a valid email address
+          </div>
         </div>
 
-        <div class="col-6 mb-3">
+        <div class="col-12 col-md-6">
           <label for="password" class="form-label">Password:</label>
-          <input type="text" class="form-control" id="password">
+          <input type="password" class="form-control" id="password">
         </div>
   
-        <div class="col-6 mb-3">
+        <div class="col-12 col-md-6">
           <label for="repeatPass" class="form-label">Repeat Password:</label>
-          <input type="text" class="form-control" id="repeatPass">
+          <input type="password" class="form-control" id="repeatPass">
+        </div>
+
+        <div class="col-12">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+
+        <div class="col-6">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="search...">
+            <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              I accept the terms and conditions
+            </label>
+            <div class="invalid-feedback">You must accept the terms</div>
+          </div>
         </div>
 
         
-        <div class="col-12">
-          <button class="btn btn-primary">SUBMIT</button>
+        <div class="col-12 col-md-3 ms-auto">
+          <button class="btn btn-primary w-100">SUBMIT</button>
         </div>
 
       </div>
