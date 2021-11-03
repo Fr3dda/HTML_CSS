@@ -1,0 +1,7 @@
+@media (min-width: 900px) {
+  .container {
+    max-width: 860px;
+    background-color: #333;
+    color: #fff;
+  }
+}

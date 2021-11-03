@@ -12,3 +12,19 @@
 .color {
   color: var(--primary-color);
 }
+
+@media (min-width: 768px) {
+  body {
+    /* background-color: var(--secondary-color); */
+  }
+  .border {
+    max-width: 768px;
+    margin: auto;
+  }
+}
+
+/* @media only screen and (orientation: landscape) {
+  body {
+    background-color: var(--secondary-color);
+  }
+} */
