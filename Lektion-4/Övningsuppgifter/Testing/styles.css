@@ -1,0 +1,33 @@
+
+
+html {
+    height: 100%;
+}
+
+h1 {
+    background-color: #10657B;
+    color: #fff;
+    text-align:center;
+    padding: 1.5rem;
+
+}
+
+
+.box {
+    margin-top: 20px;
+    flex-basis: 30%;
+    width: 100%;
+}
+
+.Flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media(min-width: 768px) {
+}

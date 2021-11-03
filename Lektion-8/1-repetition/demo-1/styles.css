@@ -1,0 +1,23 @@
+
+:root{
+    --primary-color: #a34949;
+    --secondary-color: hsl(334, 12%, 65%);
+}
+
+
+
+
+
+.border{
+    border: 1px solid #333;
+}   /* background-color: var(--secondary-color;) */
+
+
+
+
+
+@media(min-width:768px) {
+    body{
+        background-color: var(--secondary-color);
+    }
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.top-nav {
+    height: 50px;
+    background-color: black;
+}
+
+
+.navbar {
+    background-color: darkslateblue;
+    padding: 1rem;
+  /*   position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    
+}
+
+
+
+.square {
+    border: 1px solid black;
+    height: 400px;
+    margin-top: 7rem;
+    position: relative;
+/*     z-index: 3; */
+
+
+}
+
+.ball {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+/*     z-index: 1; */
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    position: fixed;
+    top: 70%;
+    right: 0;
+}
+
+#top {
+    position: absolute;
+    top: 0;
+}

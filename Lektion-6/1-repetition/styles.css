@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-header{
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 1rem;
+    color:#fff;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+/*     border: 2px solid pink; */
+}
+
+
+
+#regForm{
+    margin-top: 3rem;
+}
+
+
+
+.d-flex{
+    display: flex;
+
+}
+.input-group{
+/* border: 1px solid red; */
+margin-bottom: 1rem;
+/* width: 50%; */
+/* width: 100%; */
+flex: 1;
+padding: 0 1rem;
+margin-bottom: 1rem;
+}
+.input-group label{
+
+}
+.input-group input {
+width: 100%;
+}

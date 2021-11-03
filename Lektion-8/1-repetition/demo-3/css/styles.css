@@ -1,0 +1,77 @@
+/* importer */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #eee;
+    color: #222;
+}
+
+/* Hjälpklasser */
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.btn{
+    padding:  .4rem 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #13504a;
+    color: #fff;
+}
+
+.mt-1{margin-top: 1rem;}
+.mt-2{margin-top: 2rem;}
+.p-1{ padding: 1rem;}
+
+
+/* Section 1 */
+.card{
+    border: 1px solid grey;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0;
+}
+
+/* Section 2 */
+
+#section-2{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url('../assets/img/small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Section 3 */
+
+
+
+/* media queries */
+
+
+@media(min-width: 768px) {
+    .card{
+        background-color: #333;
+        color: #fff;
+    }
+    #section-2{
+        background-image: url('../assets/img/xps-yNvVnPcurD8-unsplash.jpg');
+    }
+}

@@ -1,0 +1,39 @@
+
+/* #post-1 -- Överstrider allt annat */
+#post-1 {
+    color:#ff0606;
+}
+h1 {
+  color:#700000  
+}
+p{
+    color: hsl(240, 95%, 48%);
+}
+
+small{
+    color: #000000
+}
+
+.post p, .sm {
+    color:hsl(0, 0%, 0%);
+
+}
+
+@media(min-width: 768px) {
+    h1{
+        text-align: start;
+        color: #ff7300;
+    }
+    body {
+        background-color: bisque;
+    }
+}
+
+@media(min-width: 992px) {
+    h1 {
+        color: aqua;
+    }
+    body {
+        background-color: brown;
+    }
+}

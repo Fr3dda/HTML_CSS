@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.navbar{
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.border{
+    border: 2px solid black;
+}
+.blue{
+    border-color: blue;
+}
+
+li{
+    list-style: none;
+}

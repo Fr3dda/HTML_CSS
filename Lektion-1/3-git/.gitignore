@@ -1,0 +1,11 @@
+log.txt
+# ignorerar en specifik fil
+
+/mappnamn
+/node_modules
+#ignorerar en hel mapp
+
+# *.txt
+# ingrorerar alla .txt filer
+
+# *.js
