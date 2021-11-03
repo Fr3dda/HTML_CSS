@@ -13,6 +13,19 @@ body {
   margin: 2rem auto;
 }
 
+.mt {
+  margin-top: 2rem;
+}
+.p {
+  padding: 1rem;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.border {
+  border: 1px solid red;
+}
 .card {
   border-radius: 10px;
   background-color: #f1f1f1;
@@ -42,4 +55,21 @@ body {
 }
 .card-body {
   padding: 1rem;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #8fafae;
+  border-radius: 50%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+.image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
