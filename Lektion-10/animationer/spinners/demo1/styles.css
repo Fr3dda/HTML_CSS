@@ -1,0 +1,18 @@
+.loader{
+    /* background-color: #6bb102 ; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 15px solid transparent;
+    /* border-bottom: 10px solid green; */
+    border-bottom-color:hsl(350, 19%, 38%);
+    border-top-color: hsl(116, 22%, 35%);
+
+
+    animation: spinner 1.5s ease-in-out  infinite;
+}
+
+@keyframes spinner{
+    0% {transform: rotateX(0deg);}
+    100% { transform: rotate(360deg);}
+}
