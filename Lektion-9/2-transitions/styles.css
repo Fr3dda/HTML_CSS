@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin:  0 auto;
+}
+
+/* Box */
+
+
+.box{
+    background-color: darkred;
+    width: 200px;
+    height: 150px;
+    margin: 4rem 0 2rem;
+
+
+/*     transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+
+
+    transition: width 1s ease-in-out 1s, height 1s, transform 0.5s;
+    transition: all 1s;
+
+}
+.box:hover{
+    width: 400px;
+    height: 300px;
+    transform: translateX(100px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    perspective: 400px;
+}
+
+
+/* Button */
+
+
+.btn{
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-primary{
+    background-color: #17645d;
+    color: wheat;
+    box-shadow: 2px 2px 7px 1px #333;
+}
+.btn-primary:hover{
+    background-color: rgb(29, 131, 122);
+    box-shadow: 3px 7px 10px 5px #333;
+}
+.btn-primary:active{
+    background-color: hsl(175, 64%, 45%);
+    box-shadow: 1px 1px 5px 0 #333;
+}
+
+
+/* CARD */
+
+.card{
+    border: .5px solid #333;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotateX(50deg);
+    background-color:cyan;
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: rotateX(0deg) translateY(-50px) scale(1.2);
+    z-index: 10;
+}
+
+
+/* #child1 + .child{
+    background-color: red;
+} */
+#child1 ~ .child{
+    background-color: red;
+}

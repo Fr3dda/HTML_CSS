@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+
+/* Hjälpklasser */
+.bg-blue{
+    background-color: #2c818d;
+    color: #fff;
+}
+.bg-grey{
+    background-color: #cecece;
+    color: #333;
+}
+.d-flex{ 
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+
+/* NAVBAR */
+
+/* .navbar .container{
+    display: flex;
+} */
+
+.navbar-nav{
+    list-style: none;
+}
+.nav-link{
+    margin-left: 2rem;
+}
+.navbar{
+    padding: 1rem 0;
+    background-color: #2c818d;
+    color: #fff;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* showcase */
+
+.text{
+    padding: 1rem;
+}
+
+
+/* SHOWCASE */
+
+#showcase{
+    padding: 3rem 0;
+}
+
+#contact{
+    padding: 3rem 0;
+}
+
+
+ 
+    .d-flex.hide{
+        display: flex;
+    }
+    .hide{
+        display: block;
+    }
+    .navbar-nav{
+        display: flex;
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .container{
+        max-width: 1300px;
+    }
+}
