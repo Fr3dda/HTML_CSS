@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ol li:hover{
+    color: limegreen;
+}
+
+p{
+    background-color: limegreen;
+}
+
+p::before{
+    content: 'före';
+/*     width: 100px;
+    height: 100px; */
+    /* display: block; */
+    background: blue;
+    color: white;
+}
+
+p::after{
+    content: 'efter';
+    background: red;
+    display: block;
+}

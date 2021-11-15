@@ -1,0 +1,33 @@
+.quote{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.quote::before{
+    content: open-quote;
+}
+.quote::after{
+    content: close-quote;
+}
+
+.quote::before,
+.quote::after{
+    font-size: 3rem;
+    color: rgba(172, 172, 172, 0.616);
+}
+
+a[data-tool-tip]{
+    position: relative;
+}
+a[data-tool-tip]::after{
+    content: attr(data-tool-tip);
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    display: block;
+    background: rgba(68, 68, 68, 0.795);
+    color: rgba(255, 255, 255, 0.671);
+    padding: 1rem 2rem;
+    white-space: nowrap;
+}
